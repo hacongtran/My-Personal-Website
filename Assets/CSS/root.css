@@ -1,0 +1,10 @@
+:root{
+    --text-color: #333
+    --main-color: crimson;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}

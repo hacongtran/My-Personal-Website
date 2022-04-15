@@ -1,0 +1,220 @@
+/* Responsive media query start */
+@media (max-width: 1104px) {
+    .about__avatar{
+        height: 400px;
+        width: 350px;
+    }
+}
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px) {
+    .navbar__menu{
+        position: fixed;
+        background-color: #111;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        display: flex;
+        background-color: #111;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+        transition: all ease 0.6s;
+    }
+    .navbar__menu.active{
+        left: 0;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+        padding: 10px 30px;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .home__content-text1{
+        margin-top: 30px;
+        font-size: 2.7rem;
+    }
+    .home__content-text2{
+        font-size: 7rem;
+    }
+    .home__content-text3{
+        font-size: 3.5rem;
+    }
+    .home__content a{
+        font-size: 2.3rem;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 800px;
+    }
+    .about__content .column{
+        width: 100%;
+    }
+    .about__left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about__right{
+        flex: 100%;
+    }
+    .about__content{
+        display: block;
+    }
+    .skills__content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .projects__link a{
+        font-size:1.3rem;
+        padding: 6px 8px;
+        margin-right: 10px;
+    }
+    .projects__info-left h1{
+        font-size: 2.8rem;
+    }
+    .projects__info-left h2{
+        font-size: 1.6rem;
+    }
+    .projects__info-left p{
+        font-size: 1.4rem;
+        margin-bottom: 0;
+    }
+    .projects__img {
+        flex-basis: 50%;
+        height: 100%;
+        /* overflow: hidden; */
+        position: relative;
+        cursor: pointer;
+        object-fit: cover;
+    }
+    .projects__item{
+        height: 270px;
+    }
+    .wrapper a{
+        width: 130px;
+        padding: 0;
+    }
+
+
+}
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 25px;
+    }
+    .home__content-text2{
+        font-size: 6rem;
+    }
+    .home__content-text3{
+        font-size: 3rem;
+    }
+    .home__content a{
+        font-size: 2rem;
+        padding: 10px 25px;
+    }
+    .skills{
+        padding-bottom: 30px;
+    }
+    .projects__item{
+       flex-direction:column;
+       height: 500px;
+	   margin: 0;
+	   width: 100%;
+	   border-radius: 0;
+       margin-bottom: 40px;
+       border-radius: 10px;
+       overflow: hidden;
+       box-shadow: rgba(216, 22, 22, 0.35) 0px 5px 15px;
+    }
+    
+    .projects__item:nth-child(even) {
+       flex-direction: column;
+    }
+    .projects__img {
+       height:200px;
+       flex-basis: 100%;
+    }
+    .projects__container{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    .contact__content .column{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .contact__info-sub-title{
+        font-size: 1.2rem;
+    }
+    .fields{
+        flex-direction: column;
+    }
+    .field.name,.field.email{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 15px ;
+    }
+    .fields, .field__res{
+        margin-bottom: 38px;
+    }
+
+    footer span{
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    .contact,.about,.details,.projects{
+        padding-bottom: 20px;
+    }
+    .wrapper{
+        margin-top: 50px;
+    }
+    .wrapper a{
+        width: 100px;
+        padding: 0;
+    }
+
+}
+@media (max-width: 500px) {
+    .home__content-text2{
+        font-size: 5rem;
+    }
+    .home__content-text3{
+        font-size: 2.4rem;
+    }
+    .about{
+        padding-bottom: 50px;
+    }
+    .home{
+        background: url("../Media/background--res.jpg") no-repeat;  
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .home__content--without-button{
+        height: 163px;
+    }
+    .wrapper{
+        margin-top: 50px;
+    }
+    .wrapper a{
+        width: 60px;
+        padding: 0;
+    }
+
+}
+@media (max-width: 380px) {
+    .details__card{
+        padding: 25px 40px;
+    }
+}
+@media (max-width: 400px) {
+    .details__card{
+        padding: 25px 40px;
+    }
+}
+
